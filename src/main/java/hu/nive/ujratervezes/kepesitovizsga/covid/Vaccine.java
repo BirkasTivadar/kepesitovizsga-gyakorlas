@@ -12,7 +12,7 @@ public class Vaccine {
 
     private DataSource dataSource;
 
-    List<Person> vaccinationList = new ArrayList<>();
+    private List<Person> vaccinationList = new ArrayList<>();
 
     public Vaccine(DataSource dataSource) {
         this.dataSource = dataSource;
